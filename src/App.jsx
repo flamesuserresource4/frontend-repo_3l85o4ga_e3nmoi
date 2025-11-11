@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Waitlist from './components/Waitlist'
+import HowItWorks from './components/HowItWorks'
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
           </div>
         </section>
 
+        <HowItWorks />
+
         <div className="relative z-10 mx-auto max-w-7xl px-6 pb-24">
           <Waitlist />
         </div>
@@ -50,6 +53,7 @@ function App() {
             </div>
             <div className="flex gap-4">
               <a href="#features" className="hover:text-gray-900">Features</a>
+              <a href="#how" className="hover:text-gray-900">How it works</a>
               <a href="#waitlist" className="hover:text-gray-900">Waitlist</a>
             </div>
           </div>
